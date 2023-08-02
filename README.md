@@ -1,14 +1,13 @@
-# Snappy - Chat Application 
-Snappy is Peer to Peer Chat Application built using react js ,nodejs and using the holepunch which help to communicate the message and make it easy process to chat among each other. 
+# QuickChats 
+
+QuickChats is Peer to Peer Chat Application built using react js ,nodejs and using the holepunch which help to communicate the message and make it easy process to chat among each other. 
 
 
 
 ## Installation Guide
 
-### Requirements
--
 
-Both should be installed and make sure mongodb is running.
+React, Nodejs,HolePunch,Mongodb should be installed and make sure mongodb is running.
 
 ```shell
 git clone

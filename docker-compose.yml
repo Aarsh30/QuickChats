@@ -1,0 +1,43 @@
+version: "3.8"
+
+services:
+  server:
+    container_name: server
+    restart: unless-stopped
+    image: server:1.0.0
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    networks:
+      - shared-network
+    depends_on:
+      - mongodb  # Add dependency on the MongoDB service
+
+  public:
+    container_name: frontend
+    restart: unless-stopped
+    image: frontend:1.0.0
+    build:
+      context: ./public
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    networks:
+      - shared-network
+    depends_on:
+      - server  # Add dependency on the "server" service
+
+  mongodb:
+    container_name: mongodb
+    image: mongo:latest  # Official MongoDB Docker image
+    restart: unless-stopped
+    ports:
+      - "27017:27017"  # Expose MongoDB default port
+    networks:
+      - shared-network
+
+networks:
+  shared-network:
+    driver: bridge

@@ -60,6 +60,6 @@ other ways docker files are created and docker-compose.yml
 ```shell
 docker-compose build
 docker-compose up
---
+````
 #Connect me!
 Checkout my portfilo website:: https://aarsh-patel.vercel.app/

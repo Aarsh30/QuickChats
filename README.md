@@ -3,15 +3,19 @@
 QuickChats is Peer to Peer Chat Application built using react js ,nodejs and using the holepunch which help to communicate the message and make it easy process to chat among each other. 
 
 #images
-
+<br>
 Main Page Chat
-<img src="https://github.com/Aarsh30/QuickChats/blob/main/Screenshot%20(888).png" alt="" title="">
+
+<img src="https://github.com/Aarsh30/QuickChats/blob/main/Screenshot%20(888).png" width="60%" height="50%" alt="" title="">
+
 
 Register
-<img src="https://github.com/Aarsh30/QuickChats/blob/main/Screenshot%20(889).png" alt="" title="">
+
+<img src="https://github.com/Aarsh30/QuickChats/blob/main/Screenshot%20(889).png" width="60%" height="50%" alt="" title="">
 
 Login
-<img src="https://github.com/Aarsh30/QuickChats/blob/main/Screenshot%20(890).png" alt="" title="">
+
+<img src="https://github.com/Aarsh30/QuickChats/blob/main/Screenshot%20(890).png" width="60%" height="50%" alt="" title="">
 
 
 ## Installation Guide

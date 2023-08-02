@@ -13,15 +13,6 @@ React, Nodejs,HolePunch,Mongodb should be installed and make sure mongodb is run
 git clone
 cd  directory
 ```
-Now rename env files from .env.example to .env
-```shell
-cd public
-mv .env.example .env
-cd ..
-cd server
-mv .env.example .env
-cd ..
-```
 
 Now install the dependencies
 ```shell
@@ -40,10 +31,10 @@ yarn start
 ```
 For Backend.
 
-Open another terminal in folder, Also make sure mongodb is running in background.
+Open another terminal in folder, Also make sure mongodb is running 
 ```shell
 cd server
 yarn start
 ```
 
-Done! Now open localhost:3000 in your browser.
+Open localhost:3000 in your browser.
